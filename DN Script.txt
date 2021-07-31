@@ -1,0 +1,93 @@
+<html><head>
+<title>insert title here - insert character here</title>
+<style type="text/css">
+<!--
+body {
+  background-color: #363636;
+}
+.text {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: justify;
+}
+.body_title {
+	border-bottom: solid 1px #000000;
+	font-family: Perpetua;
+	text-align:left;
+	font-size:60px;
+	color: #bda1ff;
+	font-style: italic;.text {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+.body_title {
+	border-bottom: solid 1px #000000;
+	font-family: Perpetua;
+	text-align:left;
+	font-size:60px;
+	color: #5642a8;
+	font-style: italic;
+}
+-->
+</style>
+</head>
+
+<body class="text">
+<script language="JavaScript">
+<!--
+name1 = prompt("What is your last name? ","");
+if( name1 == null || name1 ==""){ name1 ="Tanabe"; }
+name2 = prompt("What is your first name? ","");
+if( name2 == null || name2 ==""){ name2 ="Saori"; }
+// -->
+</script>
+<p class="body_title">title</p>
+
+#full name
+<script language="JavaScript">
+<!--
+document.write(name1 );
+// -->
+</script> 
+<script language="JavaScript">
+<!--
+document.write(name2 );
+// -->
+</script>
+
+#first name only
+<script language="JavaScript">
+<!--
+document.write(name2 );
+// -->
+</script> 
+
+#last name only
+<script language="JavaScript">
+<!--
+document.write(name1 );
+// -->
+</script> 
+
+#friend last name
+<script language="JavaScript">
+<!--
+document.write(name3 );
+// -->
+</script> 
+
+#friend first name
+<script language="JavaScript">
+<!--
+document.write(name4 );
+// -->
+</script> 
+
+</body></html>
+
+Em Dash Unicode: &#8212;
