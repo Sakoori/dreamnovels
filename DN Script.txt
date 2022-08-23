@@ -1,8 +1,12 @@
+### PLEASE REMOVE ALL THE COMMENTS BEFORE USING IT OR THEY MIGHT APPEAR IN THE FINAL PRODUCT
+### COMMENTS ARE ANY LINES THAT START WITH A # (INCLUDING THESE ONES)
+
 <html><head>
 <title>insert title here - insert character here</title>
 <style type="text/css">
 <!--
 body {
+#Currently set to be a dark grey that mimics a standard Dark Mode. Change this hex value to suit your needs/tastes.
   background-color: #363636;
 }
 .text {
@@ -40,6 +44,12 @@ body {
 <body class="text">
 <script language="JavaScript">
 <!--
+
+#change the default name, depending on your needs
+#current name of the OC is Tanabe Saori
+#script uses Eastern name order (last first), so reverse name1 and name2 for Western names (first last)
+#you can change the question that gets asked to the user by modifying the "What is your last name?" text in the ""
+
 name1 = prompt("What is your last name? ","");
 if( name1 == null || name1 ==""){ name1 ="Tanabe"; }
 name2 = prompt("What is your first name? ","");
@@ -48,7 +58,11 @@ if( name2 == null || name2 ==""){ name2 ="Saori"; }
 </script>
 <p class="body_title">title</p>
 
-#full name
+#copy/paste these bits of the script to replace the text
+#each chunk is labelled for what part of the name
+
+#full name (last name then first name)
+#ex. "My name is Tanabe Saori."
 <script language="JavaScript">
 <!--
 document.write(name1 );
@@ -61,6 +75,7 @@ document.write(name2 );
 </script>
 
 #first name only
+#ex. "You can call me Saori."
 <script language="JavaScript">
 <!--
 document.write(name2 );
@@ -68,11 +83,20 @@ document.write(name2 );
 </script> 
 
 #last name only
+#ex. "Tanabe-san is a very bright student."
 <script language="JavaScript">
 <!--
 document.write(name1 );
 // -->
 </script> 
+
+#if you have a second OC you want to to allow users to change the name of, make sure to copy these parts into your script
+
+#add this to the same section above where the JS is
+name3 = prompt("What is your friend's last name? ","");
+if( name3 == null || name3 ==""){ name3 ="Tanabe"; }
+name4 = prompt("What is your friend's first name? ","");
+if( name4 == null || name4 ==""){ name4 ="Saori"; }
 
 #friend last name
 <script language="JavaScript">
@@ -88,6 +112,9 @@ document.write(name4 );
 // -->
 </script> 
 
+#copy/paste your story here and edit it with the code chunks
+
 </body></html>
 
+#if you use em dashes in your writing, copy/paste this to replace the em dash in the text
 Em Dash Unicode: &#8212;
